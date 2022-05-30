@@ -1,6 +1,18 @@
 # console library
 A windows console c++ header-only library.
 
+## Install
+The `console` library can be used using modern cmake:
+
+- copy vcpkg/ports/console to your vcpkg ports directory
+- install `console` using `vcpkg.exe install console`
+
+To import the library in cmake:
+```cmake
+    find_package(console CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE console::console)
+```
+
 ## Examples
 
 ### Initialize Windows Console

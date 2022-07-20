@@ -4,7 +4,11 @@
 #include <memory>
 #include <fmt/core.h>
 #include <fmt/color.h>
-#include <getopt.h>
+#ifdef _UNICODE
+  #undef _UNICODE
+  #include <getopt.h>
+  #define _UNICODE
+#endif
 #include <stdbool.h>
 #include <console/utf8.hpp>
 

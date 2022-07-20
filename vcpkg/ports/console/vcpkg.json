@@ -1,6 +1,6 @@
 {
   "name": "console",
-  "version-string": "v1.0.0",
+  "version-string": "1.0.1",
   "description": "A console header-only library in c++.",
   "homepage": "https://github.com/strinque/console",
   "dependencies": [

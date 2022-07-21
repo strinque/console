@@ -8,6 +8,8 @@
   #undef _UNICODE
   #include <getopt.h>
   #define _UNICODE
+#else
+#include <getopt.h>
 #endif
 #include <stdbool.h>
 #include <console/utf8.hpp>
